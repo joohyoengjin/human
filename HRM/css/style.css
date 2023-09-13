@@ -127,7 +127,7 @@ footer .copy {
 }
 #recent .card-list .card .content-box .etc-box .item a {}
 
-/* 인사 관리 */
+/* 인사 관리 첫 부분  --------------------------------------- 인 사 관 리 */
 .hrm_check{
     
     margin: 50px;
@@ -135,17 +135,35 @@ footer .copy {
     width: 300px;  
 
 }
-.hrm_searchbox{
-    background-color: gray;
-    width: 700px;
-    height: 50px;
+.hrm_searchbox {
+    width: 800px;
+    font-family: Arial, sans-serif;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hrm_searchbox label,
+.hrm_searchbox select,
+.hrm_searchbox input[type="text"] {
+    margin: 5px;
+}
+
+.search-button {
+    margin-top: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
 .hrm_information{
-  
+
     margin:50px;
     height: 300px;
     width: 800px; 
@@ -153,3 +171,80 @@ footer .copy {
     position: relative;
     top: 50px
 }
+
+.hrm_write{
+    margin:50px;
+    width: 800px;
+    height:1100px;
+    
+    
+}
+
+.hrm_write_detail{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hrm_write_detail label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hrm_write_detail input[type="text"],
+.hrm_write_detail input[type="tel"],
+.hrm_write_detail textarea,
+.hrm_write_detail input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.hrm_write_detail input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hrm_list{
+    margin:50px;
+}
+
+.hrm_emptotal {
+    width: 800px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hrm_emptotal .bulletin {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.hrm_emptotal .bulletin h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.hrm_emptotal .bulletin p {
+    margin: 5px 0;
+}
+
+
+/* 인사 관리 마지막 부분 --------------- 인 사 관 리 */
