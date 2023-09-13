@@ -118,16 +118,29 @@
             <h3>인사 조회</h3>
             <hr width="800px">
             
-            <div class="hrm_searchbox">
-                <input type="text"><input type="button" value="조회">
-            </div>
+            <form class="hrm_searchbox">
+                <label for="department">부서 선택:</label>
+                <select id="department" name="department">
+                    <option value="hr">임원</option>
+                    <option value="finance">Finance</option>
+                    <option value="it">IT</option>
+                    <option value="marketing">Marketing</option>
+                    <!-- Add more department options as needed -->
+                </select>
+        
+                <label for="employee_number">사원 번호:</label>
+                <input type="text" id="employee_number" name="employee_number" required>
+        
+                <button type="submit" class="search-button">조 회</button>
+            </form>
         </div>
 
         <div class="hrm_information">
                 
             <h3>인사 정보</h3>
             <hr width="800px">
-            <input type="button" value="작성">   
+            <input type="button" value="작성">  
+             
         </div>
          
     </section>

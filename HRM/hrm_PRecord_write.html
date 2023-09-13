@@ -109,10 +109,38 @@
     </section>
 
     <section class="content">
-            
+        <div class="hrm_write">
+            <h2>인사 카드 생성</h2>
+            <hr width="700px">
+            <form class="hrm_write_detail" action="process_registration.php" method="post" enctype="multipart/form-data">
+                <label for="name">이 름:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="employee_number">사 번:</label>
+                <input type="text" id="employee_number" name="employee_number" required><br><br>
+        
+                <label for="department">부 서:</label>
+                <input type="text" id="department" name="department" required><br><br>
+        
+                <label for="position">직 급:</label>
+                <input type="text" id="position" name="position" required><br><br>
+        
+                <label for="phone_number">전 화 번 호:</label>
+                <input type="tel" id="phone_number" name="phone_number" required><br><br>
+        
+                <label for="address">주 소:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+        
+                <label for="photo">사 진 등 록:</label>
+                <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+        
+                <input type="submit" value="등록">
+            </form>
+
+        </div>
 
 
-        </section>
+    </section>
 
 
     </main>
