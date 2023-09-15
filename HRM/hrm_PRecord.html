@@ -1,3 +1,4 @@
+<!-- 인사정보 Personal Record -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,39 +110,37 @@
     </section>
 
     <section class="content">
-        <div class="hrm_list">
-            <h1>인사 정보</h1>
-            <hr width="700px">
-            <div class="hrm_emptotal">
-                <!-- 추후 생성 한 값이 들어가서 리스트 되는 부분 -->
-                <div class="bulletin">
-                    <h3>사원 정보 1</h3>
-                </div>
+        <div class="pr_top">
+            <h2>인사 카드 정보</h2>
+            <hr width="800px">
+        </div>
+    <div class="pr_body">  
+        
 
-                <div class="bulletin">
-                    <h3>사원 정보 2</h3>
-                </div>
+        <div class="pr_card">
+            <div class="pr_card-content">
+                <br>
+                <h2>Information</h2><br>
+                <p>이름: <span id="name">더미 예제</span></p>
+                <p>사번: <span id="employee-id">12345</span></p>
+                <p>부서: <span id="department">자 제</span></p>
+                <p>직급: <span id="position">사 원</span></p>
+                <p>전화번호: <span id="phone-number">(123) 456-7890</span></p>
+                <p>주소: <span id="address">123 우리집, 앞마당</span></p>
+            </div>
 
-                <div class="bulletin">
-                    <h3>사원 정보 3</h3>
-                </div>
-
-                <div class="bulletin">
-                    <h3>사원 정보 4</h3>
-                </div>
-
-                <div class="bulletin">
-                    <h3>사원 정보 5</h3>
-                </div>
-
-                <div class="bulletin">
-                    <h3>사원 정보 6</h3>
-                </div>
-
-                
+            <div class="pr_card-buttons">
+                <button id="edit-button">수정</button>
+                <button id="delete-button">삭제</button>
             </div>
         </div>
 
+        <div class="pr_edit-form">     
+        </div>
+
+        <script src="script.js"></script>
+
+    </div> 
     </section>
 
 
