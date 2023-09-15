@@ -19,3 +19,5 @@ editButton.addEventListener('click', () => {
 deleteButton.addEventListener('click', () => {
     // TODO: 카드 삭제 로직을 추가하세요.
 });
+
+
