@@ -374,5 +374,108 @@ footer .copy {
     display: none; 
 }
 
+/* 근태 관리 */
+.hrm_main{
+    margin: 50px;
+    padding: 50px;
+    width: 1000px;
+}
+
+.hrm_am body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 스타일링 */
+.hrm_am header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 컨테이너 스타일링 */
+.hrm_am .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 테이블 스타일링 */
+.hrm_am table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hrm_am table, .hrm_am th, .hrm_am td {
+    border: 1px solid #ddd;
+}
+
+.hrm_am th, .hrm_am td {
+    padding: 10px;
+    text-align: center;
+}
+
+.hrm_am th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* 버튼 스타일링 */
+.hrm_am .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+.hrm_am .right-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hrm_am .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hrm_am .menu-list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.hrm_am .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hrm_am .menu-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hrm_am .menu-count {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
 
 /* 인사 관리 마지막 부분 --------------- 인 사 관 리 */7
