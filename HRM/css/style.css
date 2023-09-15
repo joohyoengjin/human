@@ -129,7 +129,7 @@ footer .copy {
 
 /* 인사 관리 첫 부분  --------------------------------------- 인 사 관 리 */
 .hrm_check{
-    
+    position: relative;
     margin: 50px;
     height: 40px;
     width: 300px;  
@@ -151,7 +151,7 @@ footer .copy {
     margin: 5px;
 }
 
-.search-button {
+.hpr_search-button {
     margin-top: 5px;
     background-color: #007BFF;
     color: #fff;
@@ -170,6 +170,12 @@ footer .copy {
     border: 1px solid black;
     position: relative;
     top: 50px
+}
+.hi_write{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
 }
 
 .hrm_write{
@@ -316,4 +322,57 @@ footer .copy {
 }
 
 
-/* 인사 관리 마지막 부분 --------------- 인 사 관 리 */
+/* 인사 개인 카드 */
+.pr_top{
+    padding: 50px;
+    
+}
+
+.pr_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 50px;
+    padding: 50px;
+    width: 100vh;
+}
+
+.pr_card {
+    width: 800px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: relative;
+    height: 80vh;
+}
+
+
+.pr_card::after {
+    content: "인사카드";
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007bff;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 30px;
+    border-top-left-radius: 5px;
+}
+.pr_card-content {
+    margin-bottom: 40px; 
+}
+
+.pr_card-buttons {
+   
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pr_edit-form {
+    display: none; 
+}
+
+
+/* 인사 관리 마지막 부분 --------------- 인 사 관 리 */7
